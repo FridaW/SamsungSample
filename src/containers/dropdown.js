@@ -129,8 +129,8 @@ class DropDown extends Component {
             );
         } else if(this.props.term.term=='TV &amp; AUDIO'){
             return(
-                <div>
-                    <table>
+                <div className="nav-table">
+                    <table className="LTable">
                         <thead>
                         <tr>
                             <th>TVS & HOME THEATER</th>
@@ -152,7 +152,7 @@ class DropDown extends Component {
                         </tr>
                         </tbody>
                     </table>
-                    <table>
+                    <table className="RTable">
                         <thead>
                         <tr>
                             <th>FEATURED</th>
@@ -164,8 +164,8 @@ class DropDown extends Component {
             )
         } else if(this.props.term.term=='COMPUTING'){
             return(
-                <div>
-                    <table>
+                <div className = "nav-table">
+                    <table className ="LTable">
                         <thead>
                         <tr>
                             <th>COMPUTING</th>
@@ -200,7 +200,7 @@ class DropDown extends Component {
                         </tr>
                         </tbody>
                     </table>
-                    <table>
+                    <table className ="RTable">
                         <thead>
                         <tr>
                             <th>FEATURED</th>
@@ -212,8 +212,8 @@ class DropDown extends Component {
             )
         } else if(this.props.term.term=='APPLIANCES'){
             return(
-                <div>
-                    <table>
+                <div className ="nav-table">
+                    <table className ="LTable">
                         <thead>
                         <tr>
                             <th>HOME APPLIANCES</th>
@@ -256,7 +256,7 @@ class DropDown extends Component {
                         </tr>
                         </tbody>
                     </table>
-                    <table>
+                    <table className ="RTable">
                         <thead>
                         <tr>
                             <th>FEATURED</th>
