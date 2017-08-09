@@ -8,7 +8,7 @@ There are two methods for getting started with this repo.
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git remote add origin https://github.com/wilteadus/SamsungSample.git
+> git clone origin https://github.com/wilteadus/SamsungSample.git
 > cd SamsungSample
 > npm install
 > npm start
