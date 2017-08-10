@@ -72,25 +72,46 @@ nav ul li a:hover{
     margin: 0 25px;
     width: 40% !important;
     height: 100%;
-    border-right: solid 1px black;
     float: left;
 }
-.LTable th{
-    padding: 20px 10px 20px 0;
+.LTable thead th{
+    padding: 0 10px 20px 0;
 }
+
+.LTable thead th{
+    padding: 0 10px 20px 0;
+}
+
 .LTable td{
-    padding: 5px 0 5px 0;
+    padding: 5px 0 0 0;
+
 }
 
 .RTable{
     width: 15%;
     float: left;
+    border-left: solid 1px ghostwhite;
 }
 .RTable td{
-    padding: 5px 0 5px 0;
+    padding: 5px 0 0 40px;
 }
-.RTable th{
-    padding: 20px 10px 20px 0;
+.RTable thead th{
+    padding: 0 10px 20px 40px;
 
+}
+.RTable .Sub-head{
+    padding: 20px 10px 20px 40px;
+}
+.non-border-split{
+    width:100%;
+    height: 25px;
+}
+.bottom-border-split{
+    width:100%;
+    height: 25px;
+    border-bottom: solid 1px ghostwhite;
+}
+.clear-float{
+    clear: both;
 }
 
