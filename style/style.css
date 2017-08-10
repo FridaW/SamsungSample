@@ -68,6 +68,8 @@ nav ul li a:hover{
 
 
 .LTable{
+
+    margin: 0 25px;
     width: 40% !important;
     height: 100%;
     float: left;
@@ -82,6 +84,7 @@ nav ul li a:hover{
 
 .LTable td{
     padding: 5px 0 0 0;
+
 }
 
 .RTable{
@@ -111,3 +114,4 @@ nav ul li a:hover{
 .clear-float{
     clear: both;
 }
+

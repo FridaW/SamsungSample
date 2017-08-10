@@ -106,6 +106,7 @@ class DropDown extends Component {
             );
         } else if(this.props.term.term=='TV &amp; AUDIO'){
             return(
+
                 <div>
                     <div className="non-border-split"></div>
                     <div className="nav-table">
@@ -189,10 +190,12 @@ class DropDown extends Component {
                     </div>
                     <div className="clear-float"></div>
                     <div className="bottom-border-split"></div>
+
                 </div>
                     )
         } else if(this.props.term.term=='COMPUTING'){
             return(
+
                 <div>
                     <div className="non-border-split"></div>
                     <div className = "nav-table">
@@ -274,10 +277,12 @@ class DropDown extends Component {
                     </div>
                     <div className="clear-float"></div>
                     <div className="bottom-border-split"></div>
+
                 </div>
             )
         } else if(this.props.term.term=='APPLIANCES'){
             return(
+
                 <div>
                     <div className="non-border-split"></div>
                     <div className ="nav-table">
@@ -373,6 +378,7 @@ class DropDown extends Component {
                     </div>
                     <div className="clear-float"></div>
                     <div className="bottom-border-split"></div>
+
                 </div>
             )
         }
