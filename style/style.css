@@ -1,3 +1,8 @@
+html {
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased !important;
+    text-rendering: optimizeLegibility !important;
+}
 body {
     margin: 0 auto;
     width: 100%;
@@ -34,24 +39,33 @@ nav ul li{
     list-style: none;
 }
 
-nav ul li a{
+nav ul li .LLiA{
     font-weight: bolder;
     font-size: 12px;
     color: black;
     padding: 20px 10px 22px 10px;
 }
-nav ul li a:hover{
+nav ul li .LLiA:hover{
     text-decoration: none;
     border-bottom: solid 2px blueviolet;
+    cursor: pointer;
+}
+nav ul li .RLiA{
+    font-weight: bolder;
+    font-size: 12px;
+    color: black;
+    padding: 20px 10px 22px 10px;
+}
+nav ul li .RLiA:hover{
+    text-decoration: none;
     cursor: pointer;
 }
 .ssl{
     color: darkblue;
     font-size: larger;
-    padding: 300px;
-
 }
 .ssl:hover{
+    text-decoration: none;
     border-bottom: none;
     color: darkblue;
 }
@@ -63,34 +77,76 @@ nav ul li a:hover{
 .nav-table{
     margin-left: 1%;
     margin-right: 1%;
-
 }
-
-
 .LTable{
 
     margin: 0 25px;
     width: 40% !important;
     height: 100%;
-    border-right: solid 1px black;
     float: left;
 }
-.LTable th{
-    padding: 20px 10px 20px 0;
+.LTable thead th{
+    padding: 0 10px 20px 0;
 }
+
+.LTable thead th{
+    padding: 0 10px 20px 0;
+}
+
 .LTable td{
-    padding: 5px 0 5px 0;
+    padding: 5px 0 0 0;
+
 }
 
 .RTable{
-    width: 15%;
+    width: 20%;
     float: left;
+    border-left: solid 1px ghostwhite;
 }
 .RTable td{
-    padding: 5px 0 5px 0;
+    padding: 5px 0 0 40px;
 }
-.RTable th{
-    padding: 20px 10px 20px 0;
+.RTable thead th{
+    padding: 0 10px 20px 40px;
 
 }
-
+.RTable .Sub-head{
+    padding: 20px 10px 20px 40px;
+}
+.non-border-split{
+    width:100%;
+    height: 25px;
+}
+.bottom-border-split{
+    width:100%;
+    height: 40px;
+    border-bottom: solid 1px ghostwhite;
+}
+.clear-float{
+    clear: both;
+}
+.combine-navigation{
+    position: absolute;
+    z-index: 20;
+    background-color: white;
+    width: 100%;
+}
+.HomeSection-div{
+    position: absolute;
+    top:60px;
+    z-index: 10;
+    width: 100%;
+}
+section img{
+    width: 100%;
+}
+.liSsl{
+    padding-left: 22%;
+    padding-right: 22%;
+}
+.head-nav li img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
