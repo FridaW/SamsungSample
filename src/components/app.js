@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import Navi from '../containers/navigation'
-import DropDown from '../containers/dropdown'
-
+import CombineNavigation from './combine_navigation';
+import HomeSection from '../containers/homepagebody/pagesections';
 export default class App extends Component {
   render() {
     return (
       <div className="sub-container">
-        <Navi />
-        <DropDown />
+        <CombineNavigation/>
+        <HomeSection/>
       </div>
     );
   }
