@@ -15,7 +15,7 @@ class Navi extends Component {
         this.props.fetchTerm(event.target.innerHTML);
     }
     loginHandle() {
-        this.props.loginHide(1);
+        this.props.loginHide(true);
     }
     render(){
         return(
