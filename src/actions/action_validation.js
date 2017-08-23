@@ -5,7 +5,7 @@ export const VALIDATION = "VALIDATION";
 export function validation(term) {
     console.log(term);
     return function(dispatch){
-        axios.post(`/login`,term)
+        axios.post(`../php/login.php`,term)
             .then(function(response){
                 dispatch({
                     type: VALIDATION,
