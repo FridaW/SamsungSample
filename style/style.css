@@ -7,17 +7,13 @@ body {
     margin: 0 auto;
     width: 100%;
 }
-.container{
-    margin: 0 auto;
-    width: 100%;
-}
 .sub-container{
     margin:0 auto;
-    width: inherit;
+    width: 100%;
 }
 .react-header{
-    height: 60px;
-    border-bottom: solid 1px ghostwhite;
+    height: 62px;
+    border-bottom: solid 1px rgb(245, 245, 245);
 }
 .react-header nav{
     margin-left: 1%;
@@ -101,7 +97,7 @@ nav ul li .RLiA:hover{
 .RTable{
     width: 20%;
     float: left;
-    border-left: solid 1px ghostwhite;
+    border-left: solid 1px rgb(245, 245, 245);
 }
 .RTable td{
     padding: 5px 0 0 40px;
@@ -120,7 +116,7 @@ nav ul li .RLiA:hover{
 .bottom-border-split{
     width:100%;
     height: 40px;
-    border-bottom: solid 1px ghostwhite;
+    border-bottom: solid 1px rgb(245, 245, 245);
 }
 .clear-float{
     clear: both;
@@ -149,4 +145,71 @@ section img{
     height: 25px;
     margin-left: 10px;
     margin-right: 10px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+footer p{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+}
+.firstSection div{
+    position: absolute;
+    top: 230px;
+    left: 150px;
+}
+.firstSection h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.secondSection div {
+    position: absolute;
+    top: 1040px;
+    left: 650px;
+}
+.secondSection h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+.secondSection p {
+    margin-left: 80px;
+    color: white;
+}
+.thirdSection div{
+    position: absolute;
+    top: 1930px;
+    left: 150px;
+}
+.thirdSection h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.fourthSection div {
+    position: absolute;
+    top: 2750px;
+    left: 1050px;
+}
+.fourthSection h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.fourthSection p {
+    color: white;
+}
+.sixthSection div {
+    position: absolute;
+    top: 4600px;
+    left: 350px;
+}
+.sixthSection h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.sixthSection p {
+    color: white;
 }
