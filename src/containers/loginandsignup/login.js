@@ -46,6 +46,7 @@ class LogIn extends Component {
                         onChange={ this.onPasswordInputChange }/>
                     <button type="submit" className="btn btn-secondary">Submit</button>
                     <button className="btn" onClick={ this.cancelLogIn }>Cancel</button>
+                    <a href="/SignUp">Do not have an account?</a>
                 </form>
             );
         } else {

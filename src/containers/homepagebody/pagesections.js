@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { fetchTerm } from '../../actions/action_fetchTerm'
-import HomepageFooter from '../../components/footer';
+import HomepageFooter from '../../components/Homepage/footer';
 
 export class HomeSection extends Component{
     constructor(props) {
