@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReduxPromise from 'redux-promise';
 
-import App from './components/app';
+import App from './components/Homepage/app';
+import SignUp from './components/SignUp/SignUp'
 import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
@@ -13,6 +14,13 @@ const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
-    <App />
+      <BrowserRouter>
+          <div>
+              <Switch>
+                  <Route path="/SignUp/" component={SignUp}/>
+                  <Route path="/" component={App}/>
+              </Switch>
+          </div>
+      </BrowserRouter>
   </Provider>
   , document.querySelector('.react-container'));
